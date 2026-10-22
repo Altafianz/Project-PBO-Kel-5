@@ -17,6 +17,10 @@ public class Menu {
         return harga;
     }
 
+    public String getJenis() {
+        return "Menu";
+    }
+
     public void setHarga(double hargaMenu) {
         if (hargaMenu >= 0) {
             this.harga = hargaMenu;

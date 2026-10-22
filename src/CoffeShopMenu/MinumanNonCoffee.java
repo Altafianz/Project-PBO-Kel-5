@@ -13,6 +13,11 @@ public class MinumanNonCoffee extends Minuman {
     }
 
     @Override
+    public String getJenis() {
+        return "Minuman Non-Coffe";
+    }
+
+    @Override
     public void tampilkanInfo() {
         super.tampilkanInfo();
         System.out.println("Soda: " + (isSoda ? "Ya" : "Tidak"));

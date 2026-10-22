@@ -19,6 +19,11 @@ public class Minuman extends Menu {
     }
 
     @Override
+    public String getJenis() {
+        return "Minuman";
+    }
+
+    @Override
     public void tampilkanInfo() {
         super.tampilkanInfo();
         IO.println("Ukuran: " + ukuran + " | " + jenisPenyajian);

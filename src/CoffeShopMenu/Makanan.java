@@ -19,6 +19,11 @@ public class Makanan extends Menu {
     }
 
     @Override 
+    public String getJenis() {
+        return "Makanan";
+    }
+
+    @Override 
     public void tampilkanInfo() {
         super.tampilkanInfo();
         IO.println("Rasa: " + kategoriRasa + " | Porsi " + porsi);
